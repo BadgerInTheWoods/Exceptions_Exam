@@ -22,6 +22,7 @@ public class UserRepo {
             }
 
         } catch (IOException e) {
+            e.printStackTrace();
             throw new RuntimeException(e);
         }
     }
