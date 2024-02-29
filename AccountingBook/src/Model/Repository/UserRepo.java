@@ -27,7 +27,7 @@ public class UserRepo {
     }
 
     public String toInput(User user) {
-        return String.format("%s,%s,%s,%s,%s", user.getName(),
+        return String.format("%s,%s,%s,%s,%s,%s",user.getSurname(), user.getName(),
                 user.getLastName(), user.getBirthDate(),
                 user.getPhoneNumber(), user.getSex());
     }
